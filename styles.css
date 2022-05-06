@@ -5,11 +5,11 @@ body{
 .drk-blue-box{
     background-color: #1F2937;
     color: #F9FAF8;
-    height: 800px;
+    
 }
 .header{
     display: flex;
-    
+    margin-bottom: 100px;
     justify-content: space-between;
     align-items: center;
 }
@@ -25,4 +25,42 @@ body{
     margin-right: 200px;
     gap: 20px;
     opacity: .5;
+}
+.drk-blue-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.hero-box{
+ 
+    display: block;
+    width: 500px;
+    margin-left: 150px;
+}
+.hero-text{
+    font-size: 48px;
+    font-weight: 800;
+}
+.sub-hero-text{
+    font-size: 18px;
+    opacity: .75;
+    margin-top: -25px;
+}
+.sign-up{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.image-placeholder{
+    background-color: rgb(84, 75, 75);
+    columns: white;
+    width: 400px;
+    margin-right: 200px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
